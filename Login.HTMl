@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" type="text/css" href="colors.css">
+</head>
+<body>
+    <div id="login_form">
+        <form action="process_registration.php" method="post">
+            <h1 id="register_title">Inregistreaza-te!</h1>
+
+            <label for="job">
+                <input type="radio" id="job" name="job" required> Student
+            </label>
+
+            <label for="job">
+                <input type="radio" id="job" name="job" required> Company
+            </label>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name "email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Register">
+        </form>
+        <a href="Login_1.html" id="login_button">Already registered, Login!</a>
+    </div>
+</body>
+</html>
