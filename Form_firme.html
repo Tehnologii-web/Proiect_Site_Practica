@@ -9,9 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="mesaj">
+        <h1>Adauga o noua oferta de munca!</h1>
+        <h2>Completeaza formularul.</h2>
+    </div>
+
+
     <form id="formfirma" action="/upload-offer" method="post">
         <input type="text" name="company_name" placeholder="Numele firmei">
-        <select name="offer_type">
+        <select class="options" name="offer_type">
           <option value="training">Training</option>
           <option value="internship">Internship</option>
         </select>
