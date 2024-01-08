@@ -13,9 +13,10 @@
         <h1>Adauga o noua oferta de munca!</h1>
         <h2>Completeaza formularul.</h2>
     </div>
+    
 
+    <form id="formfirma" action="process_offer.php" method="post">
 
-    <form id="formfirma" action="connect.php" method="post">
         <input type="text" name="company_name" placeholder="Numele firmei">
         <select class="options" name="offer_type">
           <option value="training">Training</option>
